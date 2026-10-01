@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = 'hostname'
+serverName = "localhost" #ou 10.0.99.150
 serverPort = 10219
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 message = input('digite qualquer sentença:')
